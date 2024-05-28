@@ -4,3 +4,124 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: -0.32px;
+    color: #2F2E41;
+    font-style: normal;
+}
+
+header,
+footer {
+height: 80px;
+background-color: #6C63FF;
+}
+
+h1 {
+    font-size: 44px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 115px;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+    height: 100%;
+    border: 1px solid red;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.btn {
+    border-radius: 5px;
+    border: 2px solid #FFF;
+    width: 120px;
+    height: 40px;
+    background-color: transparent;
+
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.cards-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.card {
+    width: 330px;
+    height: 552px;
+    border-radius: 5px;
+    border: 2px solid #E7E7E7;
+    background-color: #FFF;
+    padding: 46px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.card img {
+    margin: 40px 0 36px;
+}
+
+.card h3 {
+    text-align: center;    
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: -0.44px;
+    text-transform: uppercase;
+}
+
+.link {
+    color: #FFF;
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.content {
+    padding: 100px 0;
+}
+
+.link-icon {
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .content {
+        padding: 50px 0;
+    }
+    h1 {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    h1 {
+        font-size: 28px;
+    }
+}
